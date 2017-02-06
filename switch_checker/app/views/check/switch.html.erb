@@ -1,5 +1,24 @@
 <h1>Check Switch</h1>
-<p>Find me in app/views/check/switch.html.erb</p>
-<p>Check if switch is available for pre order</p>
+<p>Check if Nintendo Switch is available for pre order</p>
 <p>Checked on <%= @time.strftime("%b %d, %Y at %I:%M%p") %></P>
-<p>Best Buy Status: <%= @best_buy_status %></p>
+<p>Switch Availability</p>
+<table>
+  <tr>
+    <th>
+      Retailers
+    </th>
+    <th>
+      Availability
+    </th>
+  </tr>
+  <% @status_hash.each do |item| %>
+    <tr>
+      <td>
+        <%= item[0] %>
+      </td>
+      <td>
+        <%= item[1] %>
+      </td>
+    </tr>
+  <% end %>
+</table> 
