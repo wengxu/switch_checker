@@ -1,24 +1,8 @@
-# README
+ # switch_checker
+A website that checks the Nintendo Switch's pre-order availability.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### The app checks if Nintendo Switch is available for pre-order at Bestbuy, Gamestop, Target, Walmart, ToyRus, and Amazon. 
+### Checkout actual website at https://switch-checker.herokuapp.com
+### Note: the app may take a couple seconds to load as it searches through various retail websites. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version 2.2.5
