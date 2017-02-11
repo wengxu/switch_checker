@@ -1,4 +1,4 @@
- # switch_checker
+# switch_checker
 A website that checks the Nintendo Switch's pre-order availability.
 
 ### The app checks if Nintendo Switch is available for pre-order at Bestbuy, Gamestop, Target, Walmart, ToyRus, and Amazon. 
