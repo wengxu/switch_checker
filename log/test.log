@@ -1,0 +1,27 @@
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+CheckControllerTest: test_should_get_switch
+-------------------------------------------
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-05 23:08:02 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 7136ms (Views: 713.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+CheckControllerTest: test_should_get_switch
+-------------------------------------------
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-06 18:48:23 -0500
+Processing by CheckController#switch as HTML
+Completed 500 Internal Server Error in 102616ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+CheckControllerTest: test_should_get_switch
+-------------------------------------------
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-06 18:50:14 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 7959ms (Views: 410.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m

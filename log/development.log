@@ -1,0 +1,613 @@
+Started GET "/" for 127.0.0.1 at 2017-02-04 16:09:09 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb (12.4ms)
+Completed 200 OK in 101ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check" for 127.0.0.1 at 2017-02-04 16:14:40 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/check"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered collection of /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (17.1ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (16.2ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (148.9ms)
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-04 16:14:54 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 920ms (Views: 917.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-04 16:16:11 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 44ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-04 16:20:02 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2017-02-04 16:20:58 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/students"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (19.7ms)
+  Rendered collection of /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (46.5ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.7ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.8ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (604.1ms)
+Started GET "/students" for 127.0.0.1 at 2017-02-04 16:21:00 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/students"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered collection of /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (86.5ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (23.9ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (805.5ms)
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-04 16:23:07 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 96ms (Views: 73.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-04 16:23:26 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-04 16:23:45 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 40ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-04 16:24:07 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 212ms (Views: 207.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-04 16:24:21 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 57ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-04 16:24:40 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 63ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-04 16:27:28 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 38ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-05 23:21:18 -0500
+  
+LoadError (cannot load such file -- mechanize):
+  
+app/controllers/check_controller.rb:3:in `<top (required)>'
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (19.8ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.6ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (141.1ms)
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-05 23:23:59 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 6108ms (Views: 398.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-05 23:24:59 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 7586ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-06 00:34:43 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 6269ms (Views: 143.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-06 18:43:59 -0500
+Processing by CheckController#switch as HTML
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-06 18:45:25 -0500
+Processing by CheckController#switch as HTML
+Completed 500 Internal Server Error in 108411ms (ActiveRecord: 0.0ms)
+
+
+  
+Mechanize::ResponseCodeError (503 => Net::HTTPServiceUnavailable for https://www.amazon.com/Nintendo-Switch/dp/B01LTHP2ZK -- unhandled response):
+  
+app/controllers/check_controller.rb:45:in `get_status_hash'
+app/controllers/check_controller.rb:10:in `switch'
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (10.5ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.1ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.3ms)
+Started GET "/" for 127.0.0.1 at 2017-02-06 18:46:36 -0500
+Completed   in 113359ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-06 18:47:37 -0500
+Processing by CheckController#switch as HTML
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-06 18:50:32 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 10326ms (Views: 317.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 203652ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-07 00:15:17 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 6339ms (Views: 363.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-07 20:23:20 -0500
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-07 20:23:20 -0500
+Processing by CheckController#switch as HTML
+Processing by CheckController#switch as HTML
+Completed 500 Internal Server Error in 3668ms (ActiveRecord: 0.0ms)
+
+
+  
+Completed 500 Internal Server Error in 3667ms (ActiveRecord: 0.0ms)
+
+
+Mechanize::ResponseCodeError (503 => Net::HTTPServiceUnavailable for https://www.amazon.com/Nintendo-Switch/dp/B01LTHP2ZK -- unhandled response):
+  
+  
+Mechanize::ResponseCodeError (503 => Net::HTTPServiceUnavailable for https://www.amazon.com/Nintendo-Switch/dp/B01LTHP2ZK -- unhandled response):
+app/controllers/check_controller.rb:45:in `get_status_hash'
+app/controllers/check_controller.rb:10:in `switch'
+  
+app/controllers/check_controller.rb:45:in `get_status_hash'
+app/controllers/check_controller.rb:10:in `switch'
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (175.5ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (176.7ms)
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-07 20:23:30 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 6615ms (Views: 412.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-07 23:02:25 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 8495ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-07 23:56:41 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 20205ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-08 00:15:13 -0500
+Processing by CheckController#switch as HTML
+Completed 500 Internal Server Error in 36092ms (ActiveRecord: 0.0ms)
+
+
+  
+Mechanize::ResponseCodeError (503 => Net::HTTPServiceUnavailable for https://www.amazon.com/Nintendo-Switch/dp/B01LTHP2ZK -- unhandled response):
+  
+app/controllers/check_controller.rb:45:in `get_status_hash'
+app/controllers/check_controller.rb:10:in `switch'
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (20.4ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.1ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.2ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (129.9ms)
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-08 00:15:54 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7531ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-08 21:53:50 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "db/development.sqlite3" does not exist
+):
+  
+activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:675:in `rescue in connect'
+activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
+activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (5.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
+activerecord (5.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:773:in `checkout_new_connection'
+activerecord (5.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:752:in `try_to_checkout_new_connection'
+activerecord (5.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:713:in `acquire_connection'
+activerecord (5.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:490:in `checkout'
+activerecord (5.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:883:in `retrieve_connection'
+activerecord (5.0.1) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.1) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.1) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.1) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.9ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.9ms)
+Started GET "/" for 127.0.0.1 at 2017-02-08 21:58:06 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "db/development" does not exist
+):
+  
+activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:675:in `rescue in connect'
+activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
+activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (5.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
+activerecord (5.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:773:in `checkout_new_connection'
+activerecord (5.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:752:in `try_to_checkout_new_connection'
+activerecord (5.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:713:in `acquire_connection'
+activerecord (5.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:490:in `checkout'
+activerecord (5.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:883:in `retrieve_connection'
+activerecord (5.0.1) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.1) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.1) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.1) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.1ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (101.1ms)
+  [1m[35m (57.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying PRIMARY KEY)[0m
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8115692404137957555);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (7.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", 2017-02-09 03:01:39 UTC], ["updated_at", 2017-02-09 03:01:39 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(8115692404137957555)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2017-02-08 22:01:50 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb (9.0ms)
+Completed 200 OK in 44ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/check/switch" for 127.0.0.1 at 2017-02-08 22:01:58 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8663ms (Views: 365.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-08 22:04:03 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5646ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2017-02-08 22:53:59 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/students"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.6ms)
+  Rendered collection of /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (15.9ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (31.6ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (179.0ms)
+Started GET "/students" for 127.0.0.1 at 2017-02-08 22:54:00 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/students"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered collection of /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (3.0ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendering /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.1ms)
+  Rendered /Users/xuweng/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (111.7ms)
+Started GET "/" for 127.0.0.1 at 2017-02-10 00:18:12 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 8314ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-10 00:19:55 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 5321ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-10 00:20:19 -0500
+Processing by CheckController#switch as HTML
+  Rendering check/switch.html.erb within layouts/application
+  Rendered check/switch.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5472ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
