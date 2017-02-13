@@ -7,9 +7,16 @@ class CheckController < ApplicationController
   def switch
     @time = Time.now
     @best_buy_status = 'na'
-    @status_hash = get_status_hash
+    @status_hash = {}  #get_status_hash
     @tz = 'hello'
   end
+
+  def get_status 
+    @user = {a: 1, b:2}
+    respond_to do |format|
+      format.js   {render json: @user }
+    end
+  end 
 
   private 
 
