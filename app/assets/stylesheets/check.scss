@@ -1,3 +1,20 @@
 // Place all the styles related to the check controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.check-div {
+  margin: 1.5em;
+}
+.check-btn {
+  /*background-color: red;*/
+  padding: 0.8em;
+  text-decoration: none;
+  color: #242424;
+  border-radius: 0.7em;
+  border: 0.18em solid red;
+  font-size: 1.3em;
+}
+a.check-btn:hover {
+  background-color: red;
+  color: #f1f1f1;
+}
