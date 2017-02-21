@@ -51,9 +51,13 @@ class CheckController < ApplicationController
 
     amazon_html = "https://www.amazon.com/Nintendo-Switch/dp/B01LTHP2ZK/ref=sr_tnr_p_1_720018_1?s=videogames&ie=UTF8&qid=1486341811&sr=1-1&keywords=nintendo+switch"
     amazon_ps4_html = "https://www.amazon.com/Legend-Zelda-Breath-Wild-Switch/dp/B01MS6MO77/ref=pd_sim_63_1?_encoding=UTF8&refRID=3NY3W9RECPWXF72ZGA0D&th=1"
-    page = agent.get amazon_html
-    not_avail = page.search('//div[@id="outOfStock"]').count == 1
-    result_hash['Amazon'] = !not_avail
+    begin 
+      page = agent.get amazon_html
+      not_avail = page.search('//div[@id="outOfStock"]').count == 1
+      result_hash['Amazon'] = !not_avail
+    rescue 
+      result_hash['Amazon'] = 'unknown'
+    end 
 
     walmart_html = "https://www.walmart.com/ip/Nintendo-Switch-Gaming-Console/52901821"
     walmart_zelda_html = "https://www.walmart.com/ip/The-Legend-of-Zelda-Breath-of-the-Wild-Nintendo-Switch/52901830"

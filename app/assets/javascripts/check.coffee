@@ -54,8 +54,9 @@ $(document).on 'turbolinks:load', ->
         mark_aval_values()
         populate_aval_values this.responseText
         return
-      else if this.status != 200
-        alert 'error processing'
+      else if this.status == 500 
+        waiting = false
+        alert 'Internal Server Error'
     xhttp.open("GET", get_status_url, true);
     xhttp.send(); 
   
