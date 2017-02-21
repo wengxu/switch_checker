@@ -6,8 +6,7 @@ require 'json'
 class CheckController < ApplicationController
   protect_from_forgery except: :get_status
   def switch
-    @time = Time.now
-    @best_buy_status = 'na'
+    #@time = Time.now
     @status_hash = get_tmp_status_hash
   end
 

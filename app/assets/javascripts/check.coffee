@@ -5,13 +5,19 @@
 #clearInterval(my_interval)
 
 $(document).on 'turbolinks:load', -> 
+  update_datetime_label = -> 
+    # setup time 
+    check_time_element = $('#check-datetime')
+    dt = new Date()
+    check_time_element.html( dt.toDateString() + ' at ' + dt.toLocaleTimeString() )
+    return
+  update_datetime_label()
   check_btn_element = $('.check-btn').first()
   waiting = false
   update_label = -> 
     check_btn_element = document.getElementsByClassName('check-btn')[0]
     label = check_btn_element.innerHTML
     if waiting
-      console.log waiting
       if label == 'check'
         check_btn_element.innerHTML = 'checking.  '
       else if label == 'checking...'
@@ -22,7 +28,6 @@ $(document).on 'turbolinks:load', ->
         check_btn_element.innerHTML = 'checking.. '
     else 
       check_btn_element.innerHTML = 'check'
-  console.log check_btn_element
   my_interval = setInterval update_label, 1000 
 
   mark_aval_values = -> 
@@ -35,9 +40,6 @@ $(document).on 'turbolinks:load', ->
 
   populate_aval_values = (responseText) -> 
     status_obj = JSON.parse responseText
-    console.log('populate_aval_values is called')
-    console.log('responseText is ' + responseText)
-    console.log('status_obj is ' + status_obj)
     for key, value of status_obj
       aval_value = $('#' + key + '-aval-value')
       aval_value.html value.toString() 
@@ -48,11 +50,11 @@ $(document).on 'turbolinks:load', ->
     xhttp = new XMLHttpRequest()
     xhttp.onreadystatechange = -> 
       if (this.readyState == 4 && this.status == 200) 
-        console.log 'response received'
-        console.log this.responseText
         waiting = false
         mark_aval_values()
         populate_aval_values this.responseText
+        $('#aval-table').hide().fadeIn()
+        update_datetime_label()
         return
       else if this.status == 500 
         waiting = false
