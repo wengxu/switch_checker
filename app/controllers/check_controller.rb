@@ -63,7 +63,7 @@ class CheckController < ApplicationController
     walmart_zelda_html = "https://www.walmart.com/ip/The-Legend-of-Zelda-Breath-of-the-Wild-Nintendo-Switch/52901830"
     doc = Nokogiri::HTML(open(walmart_html))
     #puts doc.xpath('//span[contains(@class, "copy-mini")]').count
-    not_avail = doc.xpath('//p[@class="price-oos"]').count == 1
+    not_avail = doc.xpath('//span[contains(text(), "Out of stock")]').count == 1
     result_hash['Walmart'] = !not_avail
 
     toysRus_html = "http://www.toysrus.com/product/index.jsp?productId=119513636&cp=2255974.119659196&parentPage=family"
