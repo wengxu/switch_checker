@@ -68,3 +68,7 @@ $(document).on 'turbolinks:load', ->
     get_status()
     mark_aval_values
     return
+  
+  # startup checking 
+  waiting = true
+  get_status()

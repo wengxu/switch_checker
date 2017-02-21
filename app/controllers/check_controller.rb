@@ -8,8 +8,7 @@ class CheckController < ApplicationController
   def switch
     @time = Time.now
     @best_buy_status = 'na'
-    @status_hash = get_status_hash
-    @tz = 'hello'
+    @status_hash = get_tmp_status_hash
   end
 
   def get_status 
@@ -20,6 +19,10 @@ class CheckController < ApplicationController
   end 
 
   private 
+
+  def get_tmp_status_hash
+    return {"Bestbuy"=>"unknown","Gamestop"=>"unknown","Target"=>"unknown","Amazon"=>"unknown","Walmart"=>"unknown","ToysRus"=>"unknown"}
+  end 
 
   def get_status_hash 
     bestbuy_html = "http://www.bestbuy.com/site/nintendo-nintendo-switch-32gb-console-gray-joy-con/5670003.p?skuId=5670003"
