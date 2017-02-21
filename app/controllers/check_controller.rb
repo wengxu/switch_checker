@@ -4,17 +4,18 @@ require 'mechanize'
 require 'json'
 
 class CheckController < ApplicationController
+  protect_from_forgery except: :get_status
   def switch
     @time = Time.now
     @best_buy_status = 'na'
-    @status_hash = {}  #get_status_hash
+    @status_hash = get_status_hash
     @tz = 'hello'
   end
 
   def get_status 
-    @user = {a: 1, b:2}
+    @status_hash = get_status_hash
     respond_to do |format|
-      format.js   {render json: @user }
+      format.js   {render json: @status_hash }
     end
   end 
 

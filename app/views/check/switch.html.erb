@@ -3,7 +3,7 @@
 <p>Refresh page to check again</p>
 <p>Checked on <%= @time.strftime("%b %d, %Y at %I:%M%p") %> Eastern Time</P>
 <p>Switch Availability</p>
-<table>
+<table id="aval-table">
   <tr>
     <th>
       Retailers
@@ -17,7 +17,7 @@
       <td>
         <%= item[0] %>
       </td>
-      <td>
+      <td id="<%= item[0] %>-aval-value" class="aval-value">
         <%= item[1] %>
       </td>
     </tr>
@@ -25,5 +25,6 @@
 </table> 
 
 <div class="check-div">
-    <%= link_to 'checking...', 'check/get_status', remote: true, class: "check-btn" %>
+    <!-- <%= link_to 'check', 'check/get_status', remote: true, class: "check-btn" %> -->
+    <a href="#" class="check-btn">check</a>
   </div>
