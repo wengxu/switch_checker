@@ -1,0 +1,1 @@
+curl https://uversecentral3.att.com/uvp/PA_BsinessUverseVoice/AjaxServiceServlet?module=CallLogs&requestType=downloadCallLogsFile&downloadOption=csvformat&userTn=0000000000&timezone=America/New_York
